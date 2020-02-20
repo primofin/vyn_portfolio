@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/vyn_portfolio/static/css/main.fbcf09d2.chunk.css",
-    "main.js": "/vyn_portfolio/static/js/main.9b3cd4e1.chunk.js",
-    "main.js.map": "/vyn_portfolio/static/js/main.9b3cd4e1.chunk.js.map",
+    "main.js": "/vyn_portfolio/static/js/main.a75e6b96.chunk.js",
+    "main.js.map": "/vyn_portfolio/static/js/main.a75e6b96.chunk.js.map",
     "runtime-main.js": "/vyn_portfolio/static/js/runtime-main.04d50875.js",
     "runtime-main.js.map": "/vyn_portfolio/static/js/runtime-main.04d50875.js.map",
     "static/js/2.c0e81d62.chunk.js": "/vyn_portfolio/static/js/2.c0e81d62.chunk.js",
     "static/js/2.c0e81d62.chunk.js.map": "/vyn_portfolio/static/js/2.c0e81d62.chunk.js.map",
     "index.html": "/vyn_portfolio/index.html",
-    "precache-manifest.f78b21ba21b24547a7a52441dd9d3e5e.js": "/vyn_portfolio/precache-manifest.f78b21ba21b24547a7a52441dd9d3e5e.js",
+    "precache-manifest.9e3a9a6d4a81b5ef00724b5c4ca55cea.js": "/vyn_portfolio/precache-manifest.9e3a9a6d4a81b5ef00724b5c4ca55cea.js",
     "service-worker.js": "/vyn_portfolio/service-worker.js",
     "static/css/main.fbcf09d2.chunk.css.map": "/vyn_portfolio/static/css/main.fbcf09d2.chunk.css.map",
     "static/js/2.c0e81d62.chunk.js.LICENSE.txt": "/vyn_portfolio/static/js/2.c0e81d62.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.04d50875.js",
     "static/js/2.c0e81d62.chunk.js",
     "static/css/main.fbcf09d2.chunk.css",
-    "static/js/main.9b3cd4e1.chunk.js"
+    "static/js/main.a75e6b96.chunk.js"
   ]
 }

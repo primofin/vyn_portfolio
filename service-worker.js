@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/vyn_portfolio/precache-manifest.f78b21ba21b24547a7a52441dd9d3e5e.js"
+  "/vyn_portfolio/precache-manifest.9e3a9a6d4a81b5ef00724b5c4ca55cea.js"
 );
 
 self.addEventListener('message', (event) => {
