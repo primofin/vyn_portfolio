@@ -6,6 +6,11 @@ Data is supplied by the gitconnected.com API.
 
 [Tutorial Article >](https://levelup.gitconnected.com/build-an-awesome-developer-portfolio-website-using-react-667abd7bab4d?source=friends_link&sk=128b34f902f9363ef9f6f18125e58b06)
 
+## Technologies
+- React (using create-react-app)
+- Styled Components
+- Carbon Design
+
 ## Instructions
 ```
 git clone git@github.com:vynmetropolia/vyn_portfolio.git
