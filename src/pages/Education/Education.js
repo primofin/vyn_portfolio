@@ -1,9 +1,10 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Layout from '../../components/Layout/Layout';
-import { SectionTitle, Paragraph } from '../../styles';
-import { EducationItem, Institution, Degree } from './styles';
+import {SectionTitle, Paragraph} from '../../styles';
+import {EducationItem, Institution, Degree} from './styles';
 
-const Education = ({ user }) => {
+const Education = ({user}) => {
   return (
     <Layout user={user}>
       <div>
@@ -31,3 +32,6 @@ const Education = ({ user }) => {
 };
 
 export default Education;
+Education.propTypes = {
+  user: PropTypes.object,
+};

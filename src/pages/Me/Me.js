@@ -1,9 +1,10 @@
 import React from 'react';
-import Layout from '../../components/Layout';
-import { SectionTitle, Paragraph, Pill } from '../../styles';
-import { ProfileLink } from './styles';
+import PropTypes from 'prop-types';
+import Layout from '../../components/Layout/Layout';
+import {SectionTitle, Paragraph, Pill} from '../../styles';
+import {ProfileLink} from './styles';
 
-const Me = ({ user }) => {
+const Me = ({user}) => {
   return (
     <Layout user={user}>
       <div>
@@ -13,7 +14,7 @@ const Me = ({ user }) => {
       <div>
         <SectionTitle>Skills</SectionTitle>
         <div>
-          {user.skills.map(skill => (
+          {user.skills.map((skill) => (
             <Pill key={skill.name}>{skill.name}</Pill>
           ))}
         </div>
@@ -36,3 +37,7 @@ const Me = ({ user }) => {
 };
 
 export default Me;
+
+Me.propTypes ={
+  user: PropTypes.object,
+};

@@ -1,11 +1,12 @@
 import React from 'react';
-import Sidebar from '../Sidebar';
-import UserHeader from '../UserHeader';
-import MobileNav from '../MobileNav';
+import PropTypes from 'prop-types';
+import Sidebar from '../Sidebar/Sidebar';
+import UserHeader from '../UserHeader/UserHeader';
+import MobileNav from '../MobileNav/MobileNav';
 
-import { StyledContent } from './styles';
+import {StyledContent} from './styles';
 
-const Layout = ({ user, children }) => {
+const Layout = ({user, children}) => {
   return (
     <>
       <MobileNav />
@@ -19,3 +20,8 @@ const Layout = ({ user, children }) => {
 };
 
 export default Layout;
+
+Layout.propTypes = {
+  user: PropTypes.object,
+  children: PropTypes.array,
+};

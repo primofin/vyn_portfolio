@@ -1,9 +1,10 @@
 import React from 'react';
-import Layout from '../../components/Layout';
-import { SectionTitle, Pill } from '../../styles';
-import { ProjectItem, ProjectTitle, SkillContainer } from './styles';
+import PropTypes from 'prop-types';
+import Layout from '../../components/Layout/Layout';
+import {SectionTitle, Pill} from '../../styles';
+import {ProjectItem, ProjectTitle, SkillContainer} from './styles';
 
-const Projects = ({ user }) => {
+const Projects = ({user}) => {
   return (
     <Layout user={user}>
       <div>
@@ -27,3 +28,7 @@ const Projects = ({ user }) => {
 };
 
 export default Projects;
+
+Projects.propTypes = {
+  user: PropTypes.object,
+};

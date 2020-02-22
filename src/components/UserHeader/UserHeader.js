@@ -1,10 +1,12 @@
+/* eslint-disable max-len */
 import React from 'react';
-import { useLocation } from 'react-router-dom';
-import { ArrowRight16 } from '@carbon/icons-react';
+import {useLocation} from 'react-router-dom';
+import PropTypes from 'prop-types';
+import {ArrowRight16} from '@carbon/icons-react';
 
-import { HeaderContainer, Header, Image, ViewResumeLink } from './styles';
+import {HeaderContainer, Header, Image, ViewResumeLink} from './styles';
 
-const UserHeader = ({ user }) => {
+const UserHeader = ({user}) => {
   const location = useLocation();
 
   return (
@@ -19,19 +21,12 @@ const UserHeader = ({ user }) => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              @{user.basics.username}
+              {user.basics.username}
             </a>
           </h4>
           <p>{user.basics.label}</p>
-          <p>Coding in {user.basics.region}</p>
-          <p>{user.basics.yearsOfExperience} years of experience as a developer</p>
-          <p>{user.basics.headline}</p>
-          <p>
-            Blog:{' '}
-            <a href={user.basics.blog} target="_blank" rel="noreferrer noopener">
-              {user.basics.blog}
-            </a>
-          </p>
+          <p> {user.basics.region}</p>
+
         </div>
       </Header>
       <div>
@@ -49,3 +44,6 @@ const UserHeader = ({ user }) => {
 };
 
 export default UserHeader;
+UserHeader.propTypes = {
+  user: PropTypes.object,
+};

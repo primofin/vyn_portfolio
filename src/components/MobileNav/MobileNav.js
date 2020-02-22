@@ -1,7 +1,7 @@
-import React from 'react'
-import { User32, Code32, Education32 } from '@carbon/icons-react'
+import React from 'react';
+import {User32, Code32, Education32} from '@carbon/icons-react';
 
-import { Container, Spacer, NavWrapper, NavButton, NavLink } from './styles'
+import {Container, Spacer, NavWrapper, NavButton, NavLink} from './styles';
 
 const MobileNav = () => {
   return (
@@ -34,7 +34,7 @@ const MobileNav = () => {
         </NavLink>
       </NavWrapper>
     </Container>
-  )
-}
+  );
+};
 
-export default MobileNav
+export default MobileNav;

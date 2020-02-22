@@ -1,10 +1,11 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Me from './Me';
-import Projects from './Projects';
-import Education from './Education';
+import PropTypes from 'prop-types';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Me from './Me/Me';
+import Projects from './Projects/Projects';
+import Education from './Education/Education';
 
-const Pages = ({ user }) => {
+const PageContainer = ({user}) => {
   return (
     <Router>
       <Switch>
@@ -22,4 +23,7 @@ const Pages = ({ user }) => {
   );
 };
 
-export default Pages;
+PageContainer.propTypes = {
+  user: PropTypes.object,
+};
+export default PageContainer;
